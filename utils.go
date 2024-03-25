@@ -2,6 +2,6 @@ package utils
 
 import "fmt"
 
-func HelloWorls() {
-	fmt.Println("Hello World")
+func HelloWorls(name string) string {
+	return fmt.Sprintf("Hello %s", name)
 }
